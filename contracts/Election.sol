@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: MIT
 pragma solidity >=0.4.21 <0.9.0;
 
 contract Election {
@@ -18,7 +17,8 @@ contract Election {
     }
 
     function getAdmin() public view returns (address) {
-        // Returns account address used to deploy contract (i.e. admin)
+        // Returns account address used to 
+        //deploy contract (i.e. admin)
         return admin;
     }
 
